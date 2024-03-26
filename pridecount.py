@@ -1,6 +1,9 @@
 import numpy as np
 
-longstring = 
+with open(pride.txt) as file:
+   text_content = file.read()
+   
+longstring = text_content
 
 uniquechars = []
 charset = []
